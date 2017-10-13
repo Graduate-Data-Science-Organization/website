@@ -74,12 +74,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #fdb515;
+    border-bottom: 10px solid #fdb515;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #fdb515;
+    border-top: 10px solid #fdb515;
 }
 
 .header-container,
@@ -145,6 +145,14 @@ nav a:hover {
     padding: 20px 0;
 }
 
+.disclaimer {
+    width: 100%;
+}
+
+.ocfbanner {
+    width: 10%;
+}
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -197,6 +205,14 @@ nav a:hover {
         margin-right: 0;
     }
 
+    .disclaimer {
+        width: 100%;
+    }
+
+    .ocfbanner {
+        width: 10%;
+    }
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -238,6 +254,16 @@ nav a:hover {
     .main aside {
         float: right;
         width: 28%;
+    }
+
+    .disclaimer {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .ocfbanner {
+        width: 10%;
+        display: inline-block;
     }
 }
 
