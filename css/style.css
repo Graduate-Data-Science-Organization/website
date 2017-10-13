@@ -90,6 +90,7 @@ body {
 
 .title {
     color: white;
+    line-height: 150%;
 }
 
 /* ==============
@@ -131,7 +132,7 @@ nav a:hover {
     padding: 30px 0;
 }
 
-.main article h1 {
+{
     font-size: 2em;
 }
 
@@ -257,7 +258,7 @@ nav a:hover {
     }
 
     .disclaimer {
-        width: 80%;
+        width: 85%;
         display: inline-block;
     }
 
