@@ -97,9 +97,14 @@ body {
     MOBILE: Menu
    ============== */
 
+.title {
+    font-size: 1.5em;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 nav a {
@@ -154,6 +159,10 @@ nav a:hover {
     width: 10%;
 }
 
+.title {
+    text-align: center;
+}
+
 /* ===============
     ALL: IE Fixes
    =============== */
@@ -192,7 +201,7 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
+        width: 14%;
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
@@ -240,7 +249,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: 55%;
     }
 
 /* ============
