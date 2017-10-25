@@ -94,13 +94,24 @@ body {
 }
 
 .bio {
-    width: 60%;
+    width: 70%;
+    margin-left: 5%;
     display: inline-block;
 }
 
 .bioimg {
-    width: 35%;
     display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.bioimg img {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
 }
 
 /* ==============
@@ -167,6 +178,7 @@ nav a:hover {
 
 .ocfbanner {
     width: 10%;
+    vertical-align: middle;
 }
 
 .title {
@@ -231,6 +243,7 @@ nav a:hover {
 
     .ocfbanner {
         width: 10%;
+        vertical-align: middle;
     }
 
 /* ========================
@@ -284,6 +297,7 @@ nav a:hover {
     .ocfbanner {
         width: 10%;
         display: inline-block;
+        vertical-align: middle;
     }
 }
 
