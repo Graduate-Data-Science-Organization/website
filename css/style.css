@@ -93,6 +93,16 @@ body {
     line-height: 150%;
 }
 
+.bio {
+    width: 60%;
+    display: inline-block;
+}
+
+.bioimg {
+    width: 35%;
+    display: inline-block;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
