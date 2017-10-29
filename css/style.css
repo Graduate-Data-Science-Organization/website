@@ -118,6 +118,24 @@ body {
     margin-top: 0px;
 }
 
+.logo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    width: 70%;
+    display: inline-block;
+    margin-left: 2%; 
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
