@@ -93,6 +93,11 @@ body {
     line-height: 150%;
 }
 
+.title a {
+    color: white;
+    text-decoration: none;
+}
+
 .bio {
     width: 70%;
     margin-left: 5%;
@@ -120,9 +125,9 @@ body {
 
 .logo {
     display: block;
-    width: 200px;
-    height: 200px;
-    float: left;
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 
 .logo img {
@@ -131,9 +136,10 @@ body {
 }
 
 .about {
-    width: 70%;
-    display: inline-block;
-    margin-left: 2%; 
+    width: 80%;
+    display: block;
+    margin: auto; 
+    padding-top: 30px;
 }
 
 /* ==============
@@ -196,6 +202,10 @@ nav a:hover {
 
 .disclaimer {
     width: 100%;
+}
+
+.disclaimer a { 
+    color: white;
 }
 
 .ocfbanner {
