@@ -142,6 +142,9 @@ body {
     padding-top: 30px;
 }
 
+.disclaimer a { 
+    color: white;
+}
 /* ==============
     MOBILE: Menu
    ============== */
@@ -202,10 +205,6 @@ nav a:hover {
 
 .disclaimer {
     width: 100%;
-}
-
-.disclaimer a { 
-    color: white;
 }
 
 .ocfbanner {
