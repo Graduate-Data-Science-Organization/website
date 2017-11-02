@@ -198,6 +198,10 @@ nav a:hover {
     margin-top: 0px;
 }
 
+.mikef img {
+    margin-top: 0px;
+}
+
 .footer-container footer {
     color: white;
     padding: 20px 0;
@@ -285,6 +289,10 @@ nav a:hover {
     
     .james img {
         margin-top: 0px;
+    }
+
+    .mikef img {
+        margin-top: 1px;
     }
 
 /* ========================
