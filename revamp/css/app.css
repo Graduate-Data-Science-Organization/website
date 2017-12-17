@@ -1,0 +1,21 @@
+/*
+fdb515 gold
+003262 blue
+*/
+
+.top-bar {
+    background-color: #003262;
+}
+
+.menu {
+    color: #fff;
+}
+
+.menu li {
+    background-color: #003262;
+}
+
+.menu a {
+    color: #fff;
+    font-weight: bold;
+}
