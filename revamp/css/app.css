@@ -3,19 +3,62 @@ fdb515 gold
 003262 blue
 */
 
-.top-bar {
+.navbar {
     background-color: #003262;
 }
 
-.menu {
-    color: #fff;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
-.menu li {
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fdb515;
+}
+
+.navbar-dark .navbar-nav .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .navbar-brand:hover {
+    color: #fdb515;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.bd-footer {
+    background-color: #003262;
+    padding: 10px;
+    color: white;
+}
+
+.bd-footer a {
+    color: #fdb515;
+}
+
+.btn {
+    background-color: #003262;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    color: #fdb515;
     background-color: #003262;
 }
 
-.menu a {
-    color: #fff;
-    font-weight: bold;
+.card-img {
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #003262;
 }
