@@ -2,6 +2,9 @@
 fdb515 gold
 003262 blue
 */
+:root {
+	--hover-color: #b4c5d4;
+}
 
 .navbar {
     background-color: #003262;
@@ -12,7 +15,7 @@ fdb515 gold
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #fdb515;
+    color: var(--hover-color);
 }
 
 .navbar-dark .navbar-nav .navbar-brand {
@@ -20,7 +23,7 @@ fdb515 gold
 }
 
 .navbar-dark .navbar-nav .navbar-brand:hover {
-    color: #fdb515;
+    color: var(--hover-color);
 }
 
 .navbar-toggler {
@@ -34,7 +37,7 @@ fdb515 gold
 }
 
 .bd-footer a {
-    color: #fdb515;
+    color: #b4c5d4;
 }
 
 .btn {
@@ -44,7 +47,7 @@ fdb515 gold
 }
 
 .btn:hover {
-    color: #fdb515;
+    color: var(--hover-color);
     background-color: #003262;
 }
 
