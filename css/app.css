@@ -3,32 +3,60 @@ fdb515 gold
 003262 blue
 */
 :root {
-	--hover-color: #b4c5d4;
+    /*b4c5d4*/
+	--hover-color: #004075;
+    --gold: #fdb515;
+    --dblue: #003262;
 }
+
 
 .navbar {
     background-color: #003262;
 }
 
+.navbar-expand-md {
+    padding: 0px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+    padding: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--hover-color);
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link .current {
+    border-bottom: red solid 1px;
+}
+
+.nav-item {
+}
+
+.navbar-dark .navbar-nav .nav-item:hover {
+    box-sizing: border-box;
+    background-color: var(--hover-color);
 }
 
 .navbar-dark .navbar-nav .navbar-brand {
     color: white;
 }
 
+.navbar-brand{
+    padding: 10px
+}
+
+/*
 .navbar-dark .navbar-nav .navbar-brand:hover {
     color: var(--hover-color);
 }
+*/
 
 .navbar-toggler {
     border: none;
 }
+
 
 .bd-footer {
     background-color: #003262;
@@ -47,8 +75,7 @@ fdb515 gold
 }
 
 .btn:hover {
-    color: var(--hover-color);
-    background-color: #003262;
+    background-color: var(--hover-color);
 }
 
 .card-img {

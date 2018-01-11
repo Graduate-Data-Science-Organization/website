@@ -12,14 +12,17 @@ fdb515 gold
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+    background-color: #f03272
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: var(--hover-color);
+    border-bottom: #fdb515 solid 2px
 }
 
 .navbar-dark .navbar-nav .navbar-brand {
     color: white;
+    background-color: #f03272
 }
 
 .navbar-dark .navbar-nav .navbar-brand:hover {
