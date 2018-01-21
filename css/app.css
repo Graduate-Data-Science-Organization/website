@@ -20,7 +20,7 @@ fdb515 gold
     padding: 10px;
 }
 
-.navbar-dark .nav-link .nav-current{
+.navbar-dark .nav-link {
     color: white;
 }
 
