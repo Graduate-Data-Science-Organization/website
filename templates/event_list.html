@@ -1,0 +1,11 @@
+{% extends "events.html" %}
+{% block listevents %}
+    {% for event in events %}
+        <h3>{{ event.title }}</h3>
+        <p>{{ event.text }}</p>
+        {% if event.flyerpath is defined %}
+            <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
+        {% endif %}
+        <hr>
+    {% endfor %}
+{% endblock %}

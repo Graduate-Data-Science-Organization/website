@@ -1,64 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109398261-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-109398261-1');
-    </script>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>GDSO at UC Berkeley</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles-->
-    <link href="css/app.css" rel="stylesheet">
-
-    <!-- Font Awesome Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
-      <a class="navbar-brand" href="index.html">GDSO at UC Berkeley</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="workshop.html">Workshop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <main role="main">
-      <br><br>
-      
+{% extends "layout.html" %}
+{% block content %}
 <div class="container">
     <h1 class="display-4">Data Science Workshop</h1>
     <p>The Data Science Workshop is a three-week program where small teams of graduate students and postdocs are paired with mentors from industry to work on a data science project. The workshop is completely free of charge. It was developed to bridge the narrow, but deep gap between academia and industry.</p>
@@ -95,26 +36,4 @@
 
     <h3>Subscribe to <a href="https://docs.google.com/forms/d/e/1FAIpQLSenPPvg7oA6SXRYtzWA5khomZ3GKXAKBO-evYBidTBYcAFttA/viewform?usp=sf_link">our email list</a> to get the latest news about the Data Science Workshop</h3>
 </div>
-
-    </main>
-
-    <footer class="bd-footer">
-      <div class="row container mx-auto">
-        <div class="col-md-10">
-            <p style="font-size: 0.9em">We are a student group acting independently of the University of California. We take full responsibility for our organization and this site. GDSO is sponsored by <a href="https://www.asuc.org">ASUC</a>. Logo design based on original photo from <a href="https://www.schreinersgardens.com">Schreiner's Iris Gardens.</a></p>
-        </div>
-        <div class="col-md-2">
-            <a href="https://www.ocf.berkeley.edu"><img src="img/ocf-hosted-penguin.svg" alt="Hosted by the OCF"/></a>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+{% endblock %}
