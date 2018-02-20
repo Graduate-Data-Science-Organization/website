@@ -1,6 +1,17 @@
 Monthly Meetups
 In order to continue building connections between members on campus, we'll be hosting monthly meetups for all of you interested in data science. These meetups will be informal and feature a few short talks about a variety of topics relevant to our organization. They will happen on the second Wednesday of every month at the Berkeley Institute for Data Science (190 Doe Library). <a href="contact.html">Contact us</a> if you want to give a talk!
 
+Data & Society Conference
+Data & Society is a conference co-hosted by the UC Berkeley Graduate Data Science Organization and Studienstiftung (German Academic Scholarship Foundation). Digitization is changing almost every part of our society at rapid pace. The goal of this event is to discuss the impact digitalization and ubiquitous data generation and analysis has on different parts of our society and how we should encounter them. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdF-nTy3aHUU2hS-lxJTYLasmMTtx0zg_7sPxKYW6uxPWRu5w/viewform">Register here.</a>
+
+AI: Shape the Future
+Want to keep up with how AI is changing the world? Check out AI: Shape the Future, Cal's first full-day event focused on exploring AI through the multidisciplinary lenses of CS, business and more. The event will showcase Cal's best AI projects and thought leaders from various corners of campus to start a more complete, thoughtful, and nuanced discussion on the future of AI. Register for more information <a href="https://mailchi.mp/34d08100a466/r7lnubthzx/">here</a>.
+files/ai_shape_the_future_flyer.png
+
+How I Became a Quant Panel
+The <a href="https://mfe.berkeley.edu/">Berkeley Master of Financial Engineering (MFE) Program</a> is hosting their annual How I Became a Quant discussion on February 27.  Practitioners at top firms will share their experiences, how to prepare for a career in finance and data science, and trends emerging in the field.  Networking and Q&A will follow.
+files/HIBQFlyer2018.pdf
+
 Starting a Career in Data Science
 Our first event was a panel discussion and networking mixer with former academics who have successfully transitioned into data science careers. Our panelists were Caroline Sofiatti (Noon Home), Lenny Evans (Uber), Nathan Lande (Rally Health), and Kevin O'Sullivan (Grammarly).
 files/panel_nov_20_poster.pdf
