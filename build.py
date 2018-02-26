@@ -17,12 +17,12 @@ for temp_fname in static_pages:
 # Build team page
 team = []
 team_keys = ['name',
-        'title',
-        'imgpath',
-        'email',
-        'github',
-        'linkedin',
-        'bio']
+             'title',
+             'imgpath',
+             'email',
+             'github',
+             'linkedin',
+             'bio']
 # Parse bios.txt
 with open(os.path.join(PATH, 'files/bios.txt'), 'r') as bio_f:
     for person in bio_f.read().split('\n\n'):
