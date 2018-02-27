@@ -1,11 +1,39 @@
 {% extends "events.html" %}
 {% block listevents %}
-    {% for event in events %}
-        <h3>{{ event.title }}</h3>
-        <p>{{ event.text }}</p>
-        {% if event.flyerpath is defined %}
-            <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
-        {% endif %}
-        <hr>
-    {% endfor %}
+	<br>
+	<h2>Ongoing Events</h2>
+	<hr>
+		{% for event in events %}
+			{% if event.tag == 'ongoing' %}
+		        <h3>{{ event.title }}</h3>
+        		<p>{{ event.text }}</p>
+		        {% if event.flyerpath is defined %}
+        		    <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
+		        {% endif %}
+		    {% endif %}
+		{% endfor %}
+	<hr><br>
+	<h2>Future Events</h2>
+	<hr>
+		{% for event in events %}
+			{% if event.tag == 'future' %}
+		        <h3>{{ event.title }}</h3>
+        		<p>{{ event.text }}</p>
+		        {% if event.flyerpath is defined %}
+        		    <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
+		        {% endif %}
+		    {% endif %}
+		{% endfor %}
+	<hr><br>
+	<h2>Past Events</h2>
+	<hr>
+		{% for event in events %}
+			{% if event.tag == 'past' %}
+		        <h3>{{ event.title }}</h3>
+        		<p>{{ event.text }}</p>
+		        {% if event.flyerpath is defined %}
+        		    <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
+		        {% endif %}
+		    {% endif %}
+		{% endfor %}
 {% endblock %}

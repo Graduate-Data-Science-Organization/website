@@ -35,7 +35,7 @@ with open(os.path.join(PATH, 'about.html'), 'w') as out_f:
 
 # Build event page
 events = []
-event_keys = ['title', 'text', 'flyerpath']
+event_keys = ['title', 'tag', 'text', 'flyerpath']
 # Parse events.txt
 with open(os.path.join(PATH, 'files/events.txt'), 'r') as event_f:
     for event in event_f.read().split('\n\n'):
