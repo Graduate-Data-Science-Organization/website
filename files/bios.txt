@@ -1,10 +1,18 @@
 James Arnemann
-Founder
+Co-director
 img/james.jpg
 jamesarnemann@berkeley.edu
 https://github.com/arnemann
 https://www.linkedin.com/in/jamesarnemann/
 I founded the graduate data science organization to address a need to provide resources for graduate students to start a career in data science.  I am currently pursuing my PhD in Artificial Intelligence research, specifically Deep Learning and Machine Learning.  In addition to my research, I have been involved with many outside Data Science projects and industry internships.
+
+Michael Fang
+Co-director
+img/michael_f.jpg
+michaelfang@berkeley.edu
+https://github.com/mike-fang
+https://www.linkedin.com/in/m-fang/
+I study novel parameter estimation schemes and apply them to interesting models in physics and theoretical neuroscience. I got involved with the GDSO to connect with other graduate students who are also interested in using their skills and expertise to tackle problems outside of academia. To maintain my sanity, I enjoy traveling and photography.
 
 Sam Dixon
 Communications and Media Manager
@@ -13,14 +21,6 @@ sam.dixon@berkeley.edu
 https://github.com/sam-dixon
 https://www.linkedin.com/in/samantha-dixon-b37a8494/
 I'm a PhD student in the Physics department, studying Type Ia supernovae as tools for measuring the expansion history of the Universe and investigating the nature of dark energy. My research makes use of many data science tools and techniques, but I try to expand my skill set with side projects and hackathon submissions too. I pull myself away from my computer to ride my bike and go to concerts around the Bay Area.
-
-Michael Fang
-Campus and Industry Liaison
-img/michael_f.jpg
-michaelfang@berkeley.edu
-https://github.com/mike-fang
-https://www.linkedin.com/in/m-fang/
-I study novel parameter estimation schemes and apply them to interesting models in physics and theoretical neuroscience. I got involved with the GDSO to connect with other graduate students who are also interested in using their skills and expertise to tackle problems outside of academia. To maintain my sanity, I enjoy traveling and photography.
 
 Katrina Kalantar
 Financial Manager
