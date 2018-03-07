@@ -16,7 +16,7 @@ Want to keep up with how AI is changing the world? Check out AI: Shape the Futur
 files/ai_shape_the_future_flyer.png
 
 How I Became a Quant Panel
-future
+past
 The <a href="https://mfe.berkeley.edu/">Berkeley Master of Financial Engineering (MFE) Program</a> is hosting their annual How I Became a Quant discussion on February 27.  Practitioners at top firms will share their experiences, how to prepare for a career in finance and data science, and trends emerging in the field.  Networking and Q&A will follow.
 files/HIBQFlyer2018.pdf
 
