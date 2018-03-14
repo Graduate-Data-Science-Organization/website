@@ -22,14 +22,6 @@ https://github.com/sam-dixon
 https://www.linkedin.com/in/samantha-dixon-b37a8494/
 I'm a PhD student in the Physics department, studying Type Ia supernovae as tools for measuring the expansion history of the Universe and investigating the nature of dark energy. My research makes use of many data science tools and techniques, but I try to expand my skill set with side projects and hackathon submissions too. I pull myself away from my computer to ride my bike and go to concerts around the Bay Area.
 
-Katrina Kalantar
-Financial Manager
-img/katrina.jpg
-kkalantar@berkeley.edu
-https://github.com/katrinakalantar
-https://www.linkedin.com/in/katrinakalantar/
-I am a PhD Student in the UCB UCSF Joint Bioengineering Program, currently studying host response to infectious diseases using next-generation sequencing and bioinformatics approaches. I enjoy tackling challenging informatics projects and am passionate about applying large data analysis to improve human health. I am simultaneously excited by the possibilities enabled by application of similar analysis techcniques to day-to-day life. Outside of work, I enjoy playing ultimate frisbee and hiking.
-
 Michael Lomnitz
 Post-Doc Representative
 img/michael_l.jpg
@@ -45,3 +37,19 @@ rahman.sumayah@gmail.com
 https://github.com/SumayahR
 https://www.linkedin.com/in/sumayah-rahman-91bbb8100/
 I am a PhD student that studies the bacteria of the human microbiome by applying machine learning and statistics to sequencing data. Outside of my PhD research, I utilize my data science skill set by doing industry internships and working on side projects. I am particularly excited about my one of my side projects, which uses biometrics and blockchain technology to securely provide emergency responders with a person's medical data. In my spare time, I enjoy playing tennis, cooking, traveling, and teaching beginners how to code.
+
+Katrina Kalantar
+UC Berkeley/UCSF Bioengineering
+---
+kkalantar@berkeley.edu
+https://github.com/katrinakalantar
+https://www.linkedin.com/in/katrinakalantar/
+---
+
+Hyesoo Youn
+Insight Health Data Science Fellow
+---
+hyesoo.youn@gmail.com
+https://github.com/hsyoun
+https://www.linkedin.com/in/hyesooyoun/
+---

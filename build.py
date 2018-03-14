@@ -16,6 +16,7 @@ for temp_fname in static_pages:
 
 # Build team page
 team = []
+formerteam = []
 team_keys = ['name',
              'title',
              'imgpath',
@@ -27,11 +28,13 @@ team_keys = ['name',
 with open(os.path.join(PATH, 'files/bios.txt'), 'r') as bio_f:
     for person in bio_f.read().split('\n\n'):
         info_dict = dict(zip(team_keys, person.split('\n')))
-        info_dict['bio'] = info_dict['bio']
-        team.append(info_dict)
+        if info_dict['imgpath'] == '---':
+            formerteam.append(info_dict)
+        else:
+            team.append(info_dict)
 # Add bios to team page
 with open(os.path.join(PATH, 'about.html'), 'w') as out_f:
-    out_f.write(ENV.get_template('about_cards.html').render(team=team))
+    out_f.write(ENV.get_template('about_cards.html').render(team=team, formerteam=formerteam))
 
 # Build event page
 events = []
@@ -40,7 +43,6 @@ event_keys = ['title', 'tag', 'text', 'flyerpath']
 with open(os.path.join(PATH, 'files/events.txt'), 'r') as event_f:
     for event in event_f.read().split('\n\n'):
         info_dict = dict(zip(event_keys, event.split('\n')))
-        info_dict['text'] = info_dict['text']
         events.append(info_dict)
 # Add events to page
 with open(os.path.join(PATH, 'events.html'), 'w') as out_f:

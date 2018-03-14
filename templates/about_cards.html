@@ -21,4 +21,29 @@
         </div>
         {% endif %}
     {% endfor %}
+    {% if team|length is not divisibleby 2 %}
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block formercards %}
+    {% for person in formerteam %}
+        {% if loop.index is not divisibleby 2 %}
+        <div class="row">
+        {% endif %}
+        <div class="card col-md-6">
+            <div class="card-body">
+                <h4 class="card-title text-center">{{ person.name }}</h4>
+                <h6 class="card-title text-center">{{ person.title }}</h6>
+                <div class="card-social text-center">
+                    <a href="mailto:{{ person.email }}"><i class="fa fa-envelope fa-lg" style="color: black"></i></a>&nbsp;
+                    <a href="{{ person.github }}"><i class="fa fa-github fa-lg" style="color: black"></i></a>&nbsp;
+                    <a href="{{ person.linkedin }}"><i class="fa fa-linkedin fa-lg" style="color: black"></i></a>
+                </div>
+            </div>
+        </div>
+        {% if loop.index is divisibleby 2 %}
+        </div>
+        {% endif %}
+    {% endfor %}
 {% endblock %}
