@@ -1,0 +1,23 @@
+{% extends "partners.html" %}
+{% block listpartners %}
+    {% for partner in partners %}
+        {% if loop.index is not divisibleby 2 %}
+        <div class="row">
+        {% endif %}
+        <div class="card col-md-6">
+            <img class="card-img mx-auto d-block" src="{{ partner.imgpath }}"></img>
+            <div class="card-body">
+            	<a href="{{ partner.link }}">
+	                <h4 class="card-title text-center">{{ partner.name }}</h4>
+	            </a>
+                <p class="card-text">{{ partner.text }}</p>
+            </div>
+        </div>
+        {% if loop.index is divisibleby 2 %}
+        </div>
+        {% endif %}
+    {% endfor %}
+    {% if team|length is not divisibleby 2 %}
+        </div>
+    {% endif %}
+{% endblock %}

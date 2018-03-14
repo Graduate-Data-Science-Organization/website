@@ -71,7 +71,7 @@ fdb515 gold
 .card-img {
     max-height: 150px;
     max-width: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card {

@@ -47,3 +47,15 @@ with open(os.path.join(PATH, 'files/events.txt'), 'r') as event_f:
 # Add events to page
 with open(os.path.join(PATH, 'events.html'), 'w') as out_f:
     out_f.write(ENV.get_template('event_list.html').render(events=events))
+
+# Build partners page
+partners = []
+partner_keys = ['imgpath', 'link', 'name', 'text']
+# Parse partners.txt
+with open(os.path.join(PATH, 'files/partners.txt'), 'r') as partner_f:
+    for partner in partner_f.read().split('\n\n'):
+        info_dict = dict(zip(partner_keys, partner.split('\n')))
+        partners.append(info_dict)
+# Add partners to page
+with open(os.path.join(PATH, 'partners.html'), 'w') as out_f:
+    out_f.write(ENV.get_template('partner_list.html').render(partners=partners))

@@ -1,0 +1,9 @@
+img/bids.png
+http://bids.berkeley.edu
+Berkeley Institute for Data Science
+ 
+
+img/thw.png
+http://www.thehackerwithin.org/berkeley/
+The Hacker Within: Berkeley
+ 
