@@ -38,6 +38,11 @@ https://github.com/SumayahR
 https://www.linkedin.com/in/sumayah-rahman-91bbb8100/
 I am a PhD student that studies the bacteria of the human microbiome by applying machine learning and statistics to sequencing data. Outside of my PhD research, I utilize my data science skill set by doing industry internships and working on side projects. I am particularly excited about my one of my side projects, which uses biometrics and blockchain technology to securely provide emergency responders with a person's medical data. In my spare time, I enjoy playing tennis, cooking, traveling, and teaching beginners how to code.
 
+Alireza Faghaninia
+Workshop Organizer
+img/alireza.jpg
+I’m a postdoctoral fellow at Lawrence Berkeley National Laboratory building numerical and machine learning models to understand and predict electronic properties of semiconductors. These models help us screen and design high-performing functional materials reducing costly trial and errors during synthesis. I enjoy using my skills to solve practical problems that directly improve peoples lives. As hobbies, I like taking long walks and play League of Legends when I get the chance.
+
 Katrina Kalantar
 UC Berkeley/UCSF Bioengineering
 ---
