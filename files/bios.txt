@@ -41,6 +41,9 @@ I am a PhD student that studies the bacteria of the human microbiome by applying
 Alireza Faghaninia
 Workshop Organizer
 img/alireza.jpg
+alireza@lbl.gov
+https://github.com/albalu
+https://www.linkedin.com/in/alireza-faghaninia
 I’m a postdoctoral fellow at Lawrence Berkeley National Laboratory building numerical and machine learning models to understand and predict electronic properties of semiconductors. These models help us screen and design high-performing functional materials reducing costly trial and errors during synthesis. I enjoy using my skills to solve practical problems that directly improve peoples lives. As hobbies, I like taking long walks and play League of Legends when I get the chance.
 
 Katrina Kalantar
