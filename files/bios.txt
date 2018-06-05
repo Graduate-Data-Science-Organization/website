@@ -1,11 +1,3 @@
-James Arnemann
-Co-director
-img/james.jpg
-jamesarnemann@berkeley.edu
-https://github.com/arnemann
-https://www.linkedin.com/in/jamesarnemann/
-I founded the graduate data science organization to address a need to provide resources for graduate students to start a career in data science.  I am currently pursuing my PhD in Artificial Intelligence research, specifically Deep Learning and Machine Learning.  In addition to my research, I have been involved with many outside Data Science projects and industry internships.
-
 Michael Fang
 Co-director
 img/michael_f.jpg
@@ -15,20 +7,12 @@ https://www.linkedin.com/in/m-fang/
 I study novel parameter estimation schemes and apply them to interesting models in physics and theoretical neuroscience. I got involved with the GDSO to connect with other graduate students who are also interested in using their skills and expertise to tackle problems outside of academia. To maintain my sanity, I enjoy traveling and photography.
 
 Sam Dixon
-Communications and Media Manager
+Co-director
 img/sam.jpg
 sam.dixon@berkeley.edu
 https://github.com/sam-dixon
 https://www.linkedin.com/in/samantha-dixon-b37a8494/
 I'm a PhD student in the Physics department, studying Type Ia supernovae as tools for measuring the expansion history of the Universe and investigating the nature of dark energy. My research makes use of many data science tools and techniques, but I try to expand my skill set with side projects and hackathon submissions too. I pull myself away from my computer to ride my bike and go to concerts around the Bay Area.
-
-Michael Lomnitz
-Post-Doc Representative
-img/michael_l.jpg
-mrlomnitz@lbl.gov
-https://github.com/mlomnitz
-https://www.linkedin.com/in/michael-r-lomnitz/
-I’m currently a Postdoctoral Fellow in the Nuclear Science Division at Lawrence Berkeley National Laboratory studying the behavior of nuclear matter at temperature and pressure extremes that resemble the state of the universe instants after the big bang. To study the short-lived fireball produced in heavy ion collisions we leverage a variety of statistical and machine learning tools to reconstruct probes that travel a mere fraction of the width of human hair before decaying. Outside of work I enjoy playing squash, riding my bike and exploring the bay area.
 
 Sumayah Rahman
 Director of Education
@@ -39,12 +23,20 @@ https://www.linkedin.com/in/sumayah-rahman-91bbb8100/
 I am a PhD student that studies the bacteria of the human microbiome by applying machine learning and statistics to sequencing data. Outside of my PhD research, I utilize my data science skill set by doing industry internships and working on side projects. I am particularly excited about my one of my side projects, which uses biometrics and blockchain technology to securely provide emergency responders with a person's medical data. In my spare time, I enjoy playing tennis, cooking, traveling, and teaching beginners how to code.
 
 Alireza Faghaninia
-Workshop Organizer
+Post-Doc Representative
 img/alireza.jpg
 alireza@lbl.gov
 https://github.com/albalu
 https://www.linkedin.com/in/alireza-faghaninia
 I’m a postdoctoral fellow at Lawrence Berkeley National Laboratory building numerical and machine learning models to understand and predict electronic properties of semiconductors. These models help us screen and design high-performing functional materials reducing costly trial and errors during synthesis. I enjoy using my skills to solve practical problems that directly improve peoples lives. As hobbies, I like taking long walks and play League of Legends when I get the chance.
+
+James Arnemann
+Founder
+---
+jamesarnemann@berkeley.edu
+https://github.com/arnemann
+https://www.linkedin.com/in/jamesarnemann/
+---
 
 Katrina Kalantar
 UC Berkeley/UCSF Bioengineering
@@ -52,6 +44,14 @@ UC Berkeley/UCSF Bioengineering
 kkalantar@berkeley.edu
 https://github.com/katrinakalantar
 https://www.linkedin.com/in/katrinakalantar/
+---
+
+Michael Lomnitz
+Insight AI Fellow
+---
+mrlomnitz@lbl.gov
+https://github.com/mlomnitz
+https://www.linkedin.com/in/michael-r-lomnitz/
 ---
 
 Hyesoo Youn
