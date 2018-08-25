@@ -82,3 +82,13 @@ fdb515 gold
 a {
     color: #3B7EA1;
 }
+
+.dropdown-menu {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
