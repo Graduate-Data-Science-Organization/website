@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <h1 class="display-4">Data Science Workshop 2018</h1>
+    <h5 class="text-center"><a href="workshop.html">Find more information about the workshop here</a></h5>
+    <h2 class="display-6">Tutorials</h2>
+    The workshop began with a few tutorials. Our thanks goes out to Jeffrey Camp, Sam Dixon, Liang Chen and Charles Frye for leading them! You can find most of the content of the tutorials in <a href='https://github.com/Graduate-Data-Science-Organization/DSW2018-tutorials/'>our github repo</a>.
+    <br><br>
+    <h2 class="display-6">Projects</h2>
+    <p>The projects below were completed over the course of the 2018 Data Science Workshop from July 21-August 12, 2018.</p>
+    {% block cards %}{% endblock %}
+    <br><br>
+</div>
+{% endblock %}

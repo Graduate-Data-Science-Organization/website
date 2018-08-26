@@ -59,3 +59,15 @@ with open(os.path.join(PATH, 'files/partners.txt'), 'r') as partner_f:
 # Add partners to page
 with open(os.path.join(PATH, 'partners.html'), 'w') as out_f:
     out_f.write(ENV.get_template('partner_list.html').render(partners=partners))
+
+# Build projects page
+projects = []
+project_keys = ['name', 'mentor', 'participants', 'slide_embed']
+# Parse projects.txt
+with open(os.path.join(PATH, 'files/projects.txt'), 'r') as project_f:
+    for project in project_f.read().split('\n\n'):
+        info_dict = dict(zip(project_keys, project.split('\n')))
+        projects.append(info_dict)
+# Add to projects page
+with open(os.path.join(PATH, 'projects.html'), 'w') as out_f:
+    out_f.write(ENV.get_template('project_cards.html').render(projects=projects))
