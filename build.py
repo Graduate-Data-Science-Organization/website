@@ -44,9 +44,12 @@ with open(os.path.join(PATH, 'files/events.txt'), 'r') as event_f:
     for event in event_f.read().split('\n\n'):
         info_dict = dict(zip(event_keys, event.split('\n')))
         events.append(info_dict)
+print_future = True
+if 'future' not in set([event['tag'] for event in events]):
+    print_future = False
 # Add events to page
 with open(os.path.join(PATH, 'events.html'), 'w') as out_f:
-    out_f.write(ENV.get_template('event_list.html').render(events=events))
+    out_f.write(ENV.get_template('event_list.html').render(events=events, print_future=print_future))
 
 # Build partners page
 partners = []

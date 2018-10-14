@@ -13,18 +13,20 @@
 		    {% endif %}
 		{% endfor %}
 	<hr><br>
-	<h2>Future Events</h2>
-	<hr>
-		{% for event in events %}
-			{% if event.tag == 'future' %}
-		        <h3>{{ event.title }}</h3>
-        		<p>{{ event.text }}</p>
-		        {% if event.flyerpath is defined %}
-        		    <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
-		        {% endif %}
-		    {% endif %}
-		{% endfor %}
-	<hr><br>
+	{% if print_future %}
+		<h2>Future Events</h2>
+		<hr>
+			{% for event in events %}
+				{% if event.tag == 'future' %}
+			        <h3>{{ event.title }}</h3>
+    	    		<p>{{ event.text }}</p>
+			        {% if event.flyerpath is defined %}
+    	    		    <a class="btn btn-primary btn-med" href="{{ event.flyerpath }}" role="button">Event flyer</a>
+			        {% endif %}
+			    {% endif %}
+			{% endfor %}
+		<hr><br>
+	{% endif %}
 	<h2>Past Events</h2>
 	<hr>
 		{% for event in events %}
