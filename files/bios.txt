@@ -15,20 +15,20 @@ https://www.linkedin.com/in/samantha-dixon-b37a8494/
 I'm a PhD student in the Physics department, studying Type Ia supernovae as tools for measuring the expansion history of the Universe and investigating the nature of dark energy. My research makes use of many data science tools and techniques, but I try to expand my skill set with side projects and hackathon submissions too. I pull myself away from my computer to ride my bike and go to concerts around the Bay Area.
 
 Sumayah Rahman
-Director of Education
+ 
 img/sumayah.jpg
 rahman.sumayah@gmail.com
 https://github.com/SumayahR
 https://www.linkedin.com/in/sumayah-rahman-91bbb8100/
 I am a PhD student that studies the bacteria of the human microbiome by applying machine learning and statistics to sequencing data. Outside of my PhD research, I utilize my data science skill set by doing industry internships and working on side projects. I am particularly excited about my one of my side projects, which uses biometrics and blockchain technology to securely provide emergency responders with a person's medical data. In my spare time, I enjoy playing tennis, cooking, traveling, and teaching beginners how to code.
 
-Alireza Faghaninia
-Post-Doc Representative
-img/alireza.jpg
-alireza@lbl.gov
-https://github.com/albalu
-https://www.linkedin.com/in/alireza-faghaninia
-I’m a postdoctoral fellow at Lawrence Berkeley National Laboratory building numerical and machine learning models to understand and predict electronic properties of semiconductors. These models help us screen and design high-performing functional materials reducing costly trial and errors during synthesis. I enjoy using my skills to solve practical problems that directly improve peoples lives. As hobbies, I like taking long walks and play League of Legends when I get the chance.
+Pra Bhattacharyya
+-
+img/pra.jpg
+prabudhya@berkeley.edu
+https://github.com/prabudhya
+-
+I am a graduate student working on quantum simulation and quantum sensing using Nitrogen Vacancy centers. Currently, my research is a little removed from the conventional spheres of data science but I am broadly interested in the application of data science in the context of medicine among other things. My interest in data science stems from its potential for greater impact in developing countries. Apart from research, I try to make time for reading, soccer, cooking and hanging out with friends!
 
 James Arnemann
 Founder
@@ -61,3 +61,10 @@ hyesoo.youn@gmail.com
 https://github.com/hsyoun
 https://www.linkedin.com/in/hyesooyoun/
 ---
+
+Alireza Faghaninia
+Credit Karma
+---
+alireza@lbl.gov
+https://github.com/albalu
+https://www.linkedin.com/in/alireza-faghaninia
