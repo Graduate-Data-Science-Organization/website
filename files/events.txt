@@ -11,7 +11,7 @@ future
 Interested in honing your whiteboarding skills? We're gauging interest in a regular group meeting to practice data science interview questions. Once again, you can find out more about this by subscribing <a href="http://eepurl.com/dfafmHs">our mailing list</a>.
 
 Activision Tech Talk
-future
+past
 January 30, 6-7:30, LeConte 375<br>Dylan Rogerson (Lead Data Scientist at Activision) will be sharing his insight into game analytics with UC Berkeley students through a presentation and Q&A. You can learn more about the Activision Game Science Team before the event by checking out their <a href="http://activisiongamescience.github.io/">blog</a>.
 files/activision.pdf
 
