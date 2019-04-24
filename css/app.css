@@ -6,6 +6,14 @@ fdb515 gold
 	--hover-color: #b4c5d4;
 }
 
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
 .navbar {
     background-color: #003262;
 }
@@ -49,6 +57,9 @@ fdb515 gold
     background-color: #003262;
     padding: 10px;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -80,6 +91,7 @@ fdb515 gold
 }
 
 a {
+   /* color: #3B7EA1; */
     color: #3B7EA1;
 }
 
