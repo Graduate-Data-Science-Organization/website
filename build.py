@@ -1,5 +1,6 @@
 import os
 from jinja2 import Environment, FileSystemLoader
+import codecs
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 ENV = Environment(autoescape=False,
