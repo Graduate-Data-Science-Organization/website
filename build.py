@@ -1,5 +1,6 @@
 import os
 from jinja2 import Environment, FileSystemLoader
+import codecs
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 ENV = Environment(autoescape=False,
@@ -7,7 +8,7 @@ ENV = Environment(autoescape=False,
                   trim_blocks=False)
 
 # Pages with content that doesn't change frequently
-static_pages = ['index.html', 'contact.html', 'workshop.html']
+static_pages = ['index.html', 'contact.html', 'workshop.html', 'ds_forum.html']
 
 # Build static pages
 for temp_fname in static_pages:

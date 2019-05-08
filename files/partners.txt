@@ -6,7 +6,7 @@ BIDS is a central hub of research and education at UC Berkeley designed to facil
 img/division.jpg
 http://data.berkeley.edu
 The Division of Data Science
-The Division of Data Science is charged with launching Berkeley’s new undergraduate data science education program. We are partnering with the Division in providing opportunities to motivated graduate students interested in data science pedagogy. In particular, we are offering the GDSO Education Fellow Program. This paid position supports graduate students interested in the future of data science education, teaching, and curriculum development.
+The Division of Data Science is charged with launching Berkeley's new undergraduate data science education program. We are partnering with the Division in providing opportunities to motivated graduate students interested in data science pedagogy. In particular, we are offering the GDSO Education Fellow Program. This paid position supports graduate students interested in the future of data science education, teaching, and curriculum development.
 
 img/thw.png
 http://www.thehackerwithin.org/berkeley/
