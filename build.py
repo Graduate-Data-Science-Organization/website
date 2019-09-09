@@ -73,5 +73,17 @@ with open(os.path.join(PATH, 'files/projects.txt'), 'r') as project_f:
         info_dict = dict(zip(project_keys, project.split('\n')))
         projects.append(info_dict)
 # Add to projects page
-with open(os.path.join(PATH, 'projects.html'), 'w') as out_f:
-    out_f.write(ENV.get_template('project_cards.html').render(projects=projects))
+with open(os.path.join(PATH, 'projects_2018.html'), 'w') as out_f:
+    out_f.write(ENV.get_template('project_cards_2018.html').render(projects=projects))
+
+# Build projects 2019 page
+projects = []
+project_keys = ['name', 'link', 'mentor', 'participants', 'blurb']
+# Parse projects.txt
+with open(os.path.join(PATH, 'files/projects_2019.txt'), 'r') as project_f:
+    for project in project_f.read().split('\n\n'):
+        info_dict = dict(zip(project_keys, project.split('\n')))
+        projects.append(info_dict)
+# Add to projects page
+with open(os.path.join(PATH, 'projects_2019.html'), 'w') as out_f:
+    out_f.write(ENV.get_template('project_cards_2019.html').render(projects=projects))

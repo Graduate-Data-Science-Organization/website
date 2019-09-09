@@ -1,0 +1,54 @@
+Loan Repayment - Kenya Financial Diaries
+https://docs.google.com/presentation/d/1GRn2T7b8HhnQHIgDF8T9dmSK1ZcMR-tPWTzHndIKxAI/edit?usp=drivesdk
+Sumayah Rahman
+Julia Cluceru, Dinara Ermakova, Ella Hiesmayr
+Using the Kenya Financial Diaries dataset, we tried to predict whether people would pay back their loan or not. We first extracted all data related to loans from the huge dataset that contains all financial transactions of about 250 Kenyan households. The hardest part then was to define an outcome that measures how good of a loanpayer someone is. After doing this we predicted the outcome using several different modeling approaches.
+
+Real Time Face Emotion Detection
+https://github.com/susanhao/emotion_project
+Frank Cleary
+Daniel D Wooten, Susan Hao, Zhimin Chen, Kilean Hwang
+Our project used transfer learning with pre-trained VGGFace in Tensorflow Keras to build an emotion CNN. We then developed an application using Flask which takes in webcam videos of faces and predicts what emotion that person is exhibiting as outputted by our model.  An emoji associated with that given emotion is overlayed on top of the person's face along with a graph showing the probabilities of each emotion class as outputted by the neural net.
+
+Google Analytics Customer Revenue Prediction
+https://github.com/yuempark/DSW2019-revenue-prediction
+Andy Vargas
+Michael Yeh, Marvin Pohl, Yuem Park
+For many businesses, only a small fraction of customers produce the majority of the revenue. Therefore, identifying these potentially revenue-generating customers is critical for developing effective marketing strategies. Our project used visitor data from the online Google Merchandise Store to predict future customer revenue. Given that the vast majority of visitors never purchase anything in the future, we used a two-model approach: first, a logistic regression was used to quantify the probability that a given customer would make a purchase in the future, and second, a random forest was used to estimate the amount of money that a given customer was going to spend under the assumption that they did make a purchase in the future. By multiplying these two values together, we were able to estimate the expected value of any given customer.
+
+Malware Prediction
+https://github.com/tkino15/kaggle_malware
+Henoch Wong
+Sebastian Gude, Akshay Punhani, Takuma Kinoshita
+Preventing damages caused by Malware is an important challenge. We find that using only the top-importance features in Microsoft Malware dataset yields strong predictions with basic machine learning techniques.
+
+Market Prediction Using Reddit News Headlines
+https://docs.google.com/presentation/d/1cge2UmqxwlaUWyl4inVv5bcew_VKtXv2W_LYIe9o0N8/edit?usp=sharing
+Karla Cabellero
+Aummul Baneen Manasawala, Anu Kuncheria, Dat Mai, Tairu Lyu
+We use results from sentiment analysis of the top 25 news items from Reddit to improve market prediction from time series analysis. We tried logistic regression, random forest and time series analysis techniques to try to predict market ups and downs.
+
+ECG Learning
+https://github.com/jeffminlin/ecglearning/
+Mike Osorio
+Yang Ha, Alex Robson, Jeffmin Lin, Yao Tang
+Julia Veit, Katarina Slama, Austin Peck
+We utilized a number of deep learning techniques, notably residual CNNs, to study and attempt to classify individual heartbeats by arrhythmia. Our test accuracy was competitive with state-of-the-art results on our main dataset and when transfer learning to a secondary dataset.
+
+Classification of Equations
+https://github.com/gdso-math/math-stack
+Mike Yen
+Rebecca Cruz, Katherine Oosterbaan, Mehmet Dogan, Yishuang Chen
+We built natural language processing and computer vision models to predict the subject of a mathematical expression. We used the data from Stack Exchange posts to train, validate and test our models, and achieved accuracy values of 70-90%.
+
+Matching "Answerers" to "Askers"
+https://github.com/alisonn/gdso_2019
+Nicolas Soldi
+Alison Nguyen
+We used natural language processing and machine learning to predict which professionals are best suited to answer questions about schools and careers. Our data set comes from CareerVillage, a community that enables students to learn more about potential jobs from people who have the very same jobs themselves.
+
+Prediction of Building Energy Use with Machine Learning Techniques
+https://github.com/dmgt/gdso_2019
+Santiago Miret
+Christianna Lininger, Kate Groschner, Yusuke Kikuchi, Dana Miller
+Data from a publicly available database reporting building electricity use and building features was used to predict 9-12 month hourly electricity usage for any given building. Random forest and long short term memory machine learning techniques were utilized.

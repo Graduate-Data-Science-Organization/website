@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <h1 class="display-4">Data Science Workshop 2019</h1>
+    <h5 class="text-center"><a href="workshop.html">Find more information about the workshop here</a></h5>
+    <br>
+    <h2>Pre-workshop Tutorials</h2>
+    <h3>July 22-26, 2019, 2-3pm, 251 LeConte Hall</h3>
+    We thank everyone involved for leading the tutorials before the workshop. The content of the tutorials can be found in the Github repos, linked below:
+    <ul>
+	<li>Monday : <a href='https://github.com/geoffbacon/collaboration'>Git / Github</a> by Goeff Bacon</li>
+	<li>Tuesday : <a href='https://github.com/charlesfrye/DSW2018-tutorials/tree/master/JupyterNotebookForGreatGood'>Jupyter</a> by Charles Frye</li>
+	<li>Wednesday : <a href='https://github.com/wetchler/pandas'>Pandas / Dataframes</a> by Everett Wetchler</li>
+	<li>Thursday : <a href='https://github.com/lchen23/GDSO_workshop'>Matplotlib / Plotting</a> by Liang Chen</li>
+	<li>Friday : <a href='https://github.com/wetchler/ML'>Sklearn / Basic Modelling</a> by Everett Wetchler</li>
+    </ul>
+    <br>
+    <h2 class="display-6">Projects</h2>
+    <p>The projects below were completed over the course of the 2019 Data Science Workshop from July 27-August 17, 2019.</p>
+    {% block cards %}{% endblock %}
+    <div class="iframe-wrapper">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRy4AFxWn3XCMLxJF_cXd0hysANN7WMylDkTj20T6qTbIO3osnaicpRih1mYCilmVJWMtYQV0pRFvhM/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <br><br>
+</div>
+{% endblock %}

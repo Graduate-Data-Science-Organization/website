@@ -1,0 +1,22 @@
+{% extends "projects_2019.html" %}
+{% block cards %}
+    <div class="panel-group" id="accordion">
+    {% for project in projects %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ loop.index }}">{{ project.name }}</a>
+                </h4>
+            </div>
+            <div id="collapse{{ loop.index }}" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> {{ project.mentor }}<br>
+                    <b>Participants:</b> {{ project.participants }}<br>
+                    <a href="{{ project.link }}">Link to project</a>
+                    <p>{{ project.blurb }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

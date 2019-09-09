@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109398261-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109398261-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GDSO at UC Berkeley</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles-->
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class='main-container'>
+        <nav class="navbar navbar-dark navbar-expand-md static-top">
+          <a class="navbar-brand" href="index.html">GDSO at UC Berkeley</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbar">
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="about.html">Team</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="events.html">Events</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="ds_forum.html">Applied DS Forum</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Workshop
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="workshop.html">About the DSW</a>
+      <a class="dropdown-item" href="projects_2019.html">2019 Workshop Projects</a>
+      <a class="dropdown-item" href="projects_2018.html">2018 Workshop Projects</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="partners.html">Partners</a>
+  </li>
+</ul>
+</div>
+        </nav>
+        <br>
+        <main role="main">
+          <br><br>
+          
+<div class="container">
+    <h1 class="display-4">Data Science Workshop 2019</h1>
+    <h5 class="text-center"><a href="workshop.html">Find more information about the workshop here</a></h5>
+    <br>
+    <h2>Pre-workshop Tutorials</h2>
+    <h3>July 22-26, 2019, 2-3pm, 251 LeConte Hall</h3>
+    We thank everyone involved for leading the tutorials before the workshop. The content of the tutorials can be found in the Github repos, linked below:
+    <ul>
+	<li>Monday : <a href='https://github.com/geoffbacon/collaboration'>Git / Github</a> by Goeff Bacon</li>
+	<li>Tuesday : <a href='https://github.com/charlesfrye/DSW2018-tutorials/tree/master/JupyterNotebookForGreatGood'>Jupyter</a> by Charles Frye</li>
+	<li>Wednesday : <a href='https://github.com/wetchler/pandas'>Pandas / Dataframes</a> by Everett Wetchler</li>
+	<li>Thursday : <a href='https://github.com/lchen23/GDSO_workshop'>Matplotlib / Plotting</a> by Liang Chen</li>
+	<li>Friday : <a href='https://github.com/wetchler/ML'>Sklearn / Basic Modelling</a> by Everett Wetchler</li>
+    </ul>
+    <br>
+    <h2 class="display-6">Projects</h2>
+    <p>The projects below were completed over the course of the 2019 Data Science Workshop from July 27-August 17, 2019.</p>
+    
+    <div class="panel-group" id="accordion">
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Loan Repayment - Kenya Financial Diaries</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Sumayah Rahman<br>
+                    <b>Participants:</b> Julia Cluceru, Dinara Ermakova, Ella Hiesmayr<br>
+                    <a href="https://docs.google.com/presentation/d/1GRn2T7b8HhnQHIgDF8T9dmSK1ZcMR-tPWTzHndIKxAI/edit?usp=drivesdk">Link to project</a>
+                    <p>Using the Kenya Financial Diaries dataset, we tried to predict whether people would pay back their loan or not. We first extracted all data related to loans from the huge dataset that contains all financial transactions of about 250 Kenyan households. The hardest part then was to define an outcome that measures how good of a loanpayer someone is. After doing this we predicted the outcome using several different modeling approaches.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Real Time Face Emotion Detection</a>
+                </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Frank Cleary<br>
+                    <b>Participants:</b> Daniel D Wooten, Susan Hao, Zhimin Chen, Kilean Hwang<br>
+                    <a href="https://github.com/susanhao/emotion_project">Link to project</a>
+                    <p>Our project used transfer learning with pre-trained VGGFace in Tensorflow Keras to build an emotion CNN. We then developed an application using Flask which takes in webcam videos of faces and predicts what emotion that person is exhibiting as outputted by our model.  An emoji associated with that given emotion is overlayed on top of the person's face along with a graph showing the probabilities of each emotion class as outputted by the neural net.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Google Analytics Customer Revenue Prediction</a>
+                </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Andy Vargas<br>
+                    <b>Participants:</b> Michael Yeh, Marvin Pohl, Yuem Park<br>
+                    <a href="https://github.com/yuempark/DSW2019-revenue-prediction">Link to project</a>
+                    <p>For many businesses, only a small fraction of customers produce the majority of the revenue. Therefore, identifying these potentially revenue-generating customers is critical for developing effective marketing strategies. Our project used visitor data from the online Google Merchandise Store to predict future customer revenue. Given that the vast majority of visitors never purchase anything in the future, we used a two-model approach: first, a logistic regression was used to quantify the probability that a given customer would make a purchase in the future, and second, a random forest was used to estimate the amount of money that a given customer was going to spend under the assumption that they did make a purchase in the future. By multiplying these two values together, we were able to estimate the expected value of any given customer.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Malware Prediction</a>
+                </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Henoch Wong<br>
+                    <b>Participants:</b> Sebastian Gude, Akshay Punhani, Takuma Kinoshita<br>
+                    <a href="https://github.com/tkino15/kaggle_malware">Link to project</a>
+                    <p>Preventing damages caused by Malware is an important challenge. We find that using only the top-importance features in Microsoft Malware dataset yields strong predictions with basic machine learning techniques.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Market Prediction Using Reddit News Headlines</a>
+                </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Karla Cabellero<br>
+                    <b>Participants:</b> Aummul Baneen Manasawala, Anu Kuncheria, Dat Mai, Tairu Lyu<br>
+                    <a href="https://docs.google.com/presentation/d/1cge2UmqxwlaUWyl4inVv5bcew_VKtXv2W_LYIe9o0N8/edit?usp=sharing">Link to project</a>
+                    <p>We use results from sentiment analysis of the top 25 news items from Reddit to improve market prediction from time series analysis. We tried logistic regression, random forest and time series analysis techniques to try to predict market ups and downs.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">ECG Learning</a>
+                </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Mike Osorio<br>
+                    <b>Participants:</b> Yang Ha, Alex Robson, Jeffmin Lin, Yao Tang<br>
+                    <a href="https://github.com/jeffminlin/ecglearning/">Link to project</a>
+                    <p>Julia Veit, Katarina Slama, Austin Peck</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Classification of Equations</a>
+                </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Mike Yen<br>
+                    <b>Participants:</b> Rebecca Cruz, Katherine Oosterbaan, Mehmet Dogan, Yishuang Chen<br>
+                    <a href="https://github.com/gdso-math/math-stack">Link to project</a>
+                    <p>We built natural language processing and computer vision models to predict the subject of a mathematical expression. We used the data from Stack Exchange posts to train, validate and test our models, and achieved accuracy values of 70-90%.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Matching "Answerers" to "Askers"</a>
+                </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Nicolas Soldi<br>
+                    <b>Participants:</b> Alison Nguyen<br>
+                    <a href="https://github.com/alisonn/gdso_2019">Link to project</a>
+                    <p>We used natural language processing and machine learning to predict which professionals are best suited to answer questions about schools and careers. Our data set comes from CareerVillage, a community that enables students to learn more about potential jobs from people who have the very same jobs themselves.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Prediction of Building Energy Use with Machine Learning Techniques</a>
+                </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <b>Mentor:</b> Santiago Miret<br>
+                    <b>Participants:</b> Christianna Lininger, Kate Groschner, Yusuke Kikuchi, Dana Miller<br>
+                    <a href="https://github.com/dmgt/gdso_2019">Link to project</a>
+                    <p>Data from a publicly available database reporting building electricity use and building features was used to predict 9-12 month hourly electricity usage for any given building. Random forest and long short term memory machine learning techniques were utilized.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="iframe-wrapper">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRy4AFxWn3XCMLxJF_cXd0hysANN7WMylDkTj20T6qTbIO3osnaicpRih1mYCilmVJWMtYQV0pRFvhM/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <br><br>
+</div>
+
+        </main>
+
+        <footer class="bd-footer">
+          <div class="row container mx-auto">
+<div class="col-md-10">
+    <p style="font-size: 0.9em">We are a student group acting independently of the University of California. We take full responsibility for our organization and this site. GDSO is sponsored by <a href="https://www.asuc.org">ASUC</a>. Logo design is based on original photo from <a href="https://www.schreinersgardens.com">Schreiner's Iris Gardens.</a></p>
+</div>
+<div class="col-md-2">
+    <a href="https://www.ocf.berkeley.edu"><img src="img/ocf-hosted-penguin.svg" alt="Hosted by the OCF"/></a>
+</div>
+</div>
+
+        </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
