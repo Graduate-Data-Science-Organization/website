@@ -8,7 +8,7 @@ ENV = Environment(autoescape=False,
                   trim_blocks=False)
 
 # Pages with content that doesn't change frequently
-static_pages = ['index.html', 'contact.html', 'workshop.html', 'ds_forum.html', 'workshop_schedule.html']
+static_pages = ['index.html', 'contact.html', 'workshop.html', 'ds_forum.html']
 
 # Build static pages
 for temp_fname in static_pages:
