@@ -78,7 +78,7 @@ with open(os.path.join(PATH, 'projects_2018.html'), 'w') as out_f:
 
 # Build projects 2019 page
 projects = []
-project_keys = ['name', 'link', 'mentor', 'participants', 'blurb']
+project_keys = ['name', 'link', 'mentor', 'participants', 'blurb', 'slide_embed']
 # Parse projects.txt
 with open(os.path.join(PATH, 'files/projects_2019.txt'), 'r') as project_f:
     for project in project_f.read().split('\n\n'):
